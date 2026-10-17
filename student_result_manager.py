@@ -1,0 +1,4 @@
+student = {}
+
+while true :
+    print
