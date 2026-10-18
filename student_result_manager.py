@@ -1,6 +1,6 @@
 student = {}
 
-while true :
+while True :
     print("______Result Management System________")
     print("1. Add Students ")
     print("2. View Students ")
@@ -29,6 +29,11 @@ while true :
             
             print(f'student got : {marks}')
         else : print("No Student found")
+    elif choice == "4" :
+        print("Exiting.........")
+        break
+    else : 
+        print("Your Choice is Wrong")
 
 
 
